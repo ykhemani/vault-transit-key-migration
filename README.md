@@ -1,4 +1,4 @@
-# Securely migration a Vault Transit encryption key from one Vault cluster to another
+# Securely Migrate a Vault Transit encryption key from one Vault cluster to another
 
 If you're in a situation where you need to migrate a [Vault](https://vaultproject.io) [Transit](https://developer.hashicorp.com/vault/docs/secrets/transit) encryption key from one Vault cluster to another, we can do this securely using the steps described below.
 
