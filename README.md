@@ -6,8 +6,17 @@ To do this, we'll be using the Vault [CLI](https://developer.hashicorp.com/vault
 
 ## Prequisites
 
-In order to perform the steps below, you'll need the Vault CLI and the Vault.
+In order to perform the steps below, you'll need:
 
+1. Two Vault clusters (Source and Destination), or two Transit secret engine mounts on one Vault cluster.
+2. The Vault CLI.
+3. [curl](https://curl.se/).
+4. [jq](https://jqlang.github.io/jq/).
+
+## Video Walk-through
+Please see [https://youtu.be/qmS0c-ZieVY](https://youtu.be/qmS0c-ZieVY) for a video walk-through of what is described in this document.
+
+## Steps
 1. On the Source Cluster: Create the key to be exported if it doesn't already exist. Note that the key must be exportable.
 
 ```
